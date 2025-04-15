@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
+    <link href="main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d2ed129228.js" crossorigin="anonymous"></script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Krishnendu-portfolio Website</title>
+</head>
+    <body class="index-page">
+        <header id="header" class="header dark-background d-flex flex-column">
+          <i class="fa-solid fa-bars d-xl-none header-toggle"></i>
+          <div class="profile-img">
+            <img src="suit3_squre.png" alt="" class="img-fluid rounded-circle">
+          </div>
+      
+          <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <h1 class="sitename">Krishnendu Bir</h1>
+          </a>
+      
+          <div class="social-links text-center">
+            <a href="https://www.instagram.com/krishnendubir?igsh=OGQ5ZDc2ODk2ZA==" class="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/krishnendu-bir-383324284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/krishwq" class="github"  target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="resume2025.pdf" class="github"  target="_blank" download="Resume"><i class="fa-solid fa-download"></i></a>
+          </div>
+      
+          <nav id="navmenu" class="navmenu">
+            <ul>
+              <li><a href="#hero" ><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a></li>
+              <li><a href="#about"><i class="fa-solid fa-user"></i>&nbsp;&nbsp; About</a></li>
+              <li><a href="#skills"><i class="fa-solid fa-book"></i>&nbsp;&nbsp; Skill</a></li>
+              <li><a href="#resume"><i class="fa-solid fa-file-invoice"></i>&nbsp;&nbsp;Resume</a></li>
+              <li><a href="#portfolio"><i class="fa-solid fa-list-check"></i> &nbsp;&nbsp;Project</a></li>
+              <li><a href="#contact"><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp; Contact</a></li>
+            </ul>
+          </nav>
+      
+        </header>
+      
+        <main class="main">
+      
+          <!-- Hero Section -->
+          <section id="hero" class="hero section dark-background">
+      
+            <img src="bgimg.jpg" alt="" data-aos="fade-in" class="">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <h2>Krishnendu Bir</h2>
+                <p>I'm <span class="typed" data-typed-items="Designer, Web Developer, Full Stack Developer"></span></p>
+              </div>
+      
+          </section><!-- /Hero Section -->
+      
+          <!-- About Section -->
+          <section id="about" class="about section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2>About</h2>
+              <p>Hello, I’m Krishnendu, a graduate student pursuing Electrical Engineering at Indian Institute of Bhubaneswar(IIT BBS). With a deep curiosity for how things work and a passion for innovation, I am dedicated to expanding my knowledge in Frontend Developement, Backend Developement, machine learning, renewable energy, robotics while contributing to meaningful projects that push the boundaries of engineering.</p>
+            </div><!-- End Section Title -->
+      
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+      
+              <div class="row gy-4 justify-content-center">
+                <div class="col-lg-4">
+                  <img src="suit3.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-8 content">
+                  <h2>Frontend Developer &amp; Backend Developer.</h2>
+                  <p class="fst-italic py-3">
+                  
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i> <strong>Birthday:</strong> <span>20 November 2005</span></li>
+                        <li><i class="fa-solid fa-chevron-right"></i> <strong>Phone:</strong> <span>+91 62906 71032</span></li>
+                        <li><i class="fa-solid fa-chevron-right"></i> <strong>City:</strong> <span>Kolkata, India</span></li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <ul>
+                        <li><i class="fa-solid fa-chevron-right"></i> <strong>Age:</strong> <span id="ageDisplay"></span></li>
+                        <li><i class="fa-solid fa-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
+                        <li><i class="fa-solid fa-chevron-right"></i> <strong>Email:</strong> <span>birkrishnendu@gmail.com</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <p class="py-3">
+                    My academic journey in electrical engineering has equipped me with a strong foundation in circuit design, signal processing, and systems analysis. I’ve collaborated on research projects that honed my problem-solving skills and ability to apply technical knowledge to real-world challenges.
+                    Outside of my studies, I enjoy working on Website making, electronics projects, attending tech meetups, and exploring new innovations in the field. I’m always seeking opportunities to further develop my skills through internships and hands-on experiences.
+                  </p>
+                </div>
+              </div>
+      
+            </div>
+      
+          </section><!-- /About Section -->
+      
+          <!-- Skills Section -->
+          <section id="skills" class="skills section light-background">
+      
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Skills</h2>
+            </div><!-- End Section Title -->
+      
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+      
+              <div class="row skills-content skills-animation">
+      
+                <div class="col-lg-6">
+      
+                  <div class="progress">
+                    <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- End Skills Item -->
+      
+                  <div class="progress">
+                    <span class="skill"><span>CSS</span> <i class="val">100%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- End Skills Item -->
+      
+                  <div class="progress">
+                    <span class="skill"><span>JavaScript</span> <i class="val">90%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- End Skills Item -->
+                  <div class="progress">
+                    <span class="skill"><span>Python</span> <i class="val">75%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+      
+                </div>
+      
+                <div class="col-lg-6">
+      
+                  <div class="progress">
+                    <span class="skill"><span>React</span> <i class="val">90%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- End Skills Item -->
+      
+                  <div class="progress">
+                    <span class="skill"><span>Database</span> <i class="val">85%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- End Skills Item -->
+      
+                  <div class="progress">
+                    <span class="skill"><span>Node Js</span> <i class="val">85%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <span class="skill"><span>c++</span> <i class="val">80%</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- End Skills Item -->
+      
+                </div>
+      
+              </div>
+      
+            </div>
+            <div class="container section-title mt-3" data-aos="fade-up">
+                <p><b>Others : </b>SQL, Solid Works, Arduino, Data Science, Autocad, Express Js, Flask</p>
+              </div>
+      
+          </section><!-- /Skills Section -->
+      
+          <!-- Resume Section -->
+          <section id="resume" class="resume section">
+      
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Resume</h2>
+              <p>A look at my academic path, technical experience, and the milestones that have shaped my career so far.</p>
+            </div><!-- End Section Title -->
+      
+            <div class="container">
+      
+              <div class="row">
+      
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                  <h3 class="resume-title">Education</h3>
+                  <div class="resume-item">
+                    <h4>HIGHER SECONDARY EDUCATION</h4>
+                    <h5>2021 - 2023</h5>
+                    <p><em>Purba Barasat Adarsha Bidyapeeth, Kolkata, India</em></p>
+                    <p>I pursued my Higher Secondary education in the Science stream, specializing in Physics, Chemistry, and Mathematics (PCM).</p>
+                    <p><b>Marks : </b>91%</p>
+                  </div><!-- Edn Resume Item -->
+      
+                  <div class="resume-item">
+                    <h4>Bachelor of Technology</h4>
+                    <h5>2023 - Present</h5>
+                    <p><em>Indian Institute of Technology Bhubaneswar, India</em></p>
+                    <p>Presently, I am undertaking a Bachelor of Technology in Electrical Engineering, focusing on building a comprehensive understanding of both theoretical principles and practical applications in the field.</p>
+                    <p><b>Marks : </b>8.32 CGPA</p>
+                  </div><!-- Edn Resume Item -->
+      
+                </div>
+      
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                  <h3 class="resume-title">Professional Experience</h3>
+                  <div class="resume-item">
+                    <h4>Member of Web &amp; Design Society</h4>
+                    <h5>2023 - 2025</h5>
+                    <p><em>WebnD, IIT Bhubaneswar</em></p>
+                    <p>As a member of my college’s technical society, I’ve had the opportunity to work on several web development projects—both independently and as part of a team. Through these experiences, I gained valuable insights into collaborative workflows and learned how effective teamwork contributes to the success of a project."
+                    </p>
+                  </div><!-- Edn Resume Item -->
+      
+                  <div class="resume-item">
+                    <h4>Member of Robotics Society</h4>
+                    <h5>2023 - 2025</h5>
+                    <p><em>RISC, IIT Bhubaneswar</em></p>
+                   <p>In my college's robotics society, I've worked on projects like an RC car, robotic arm, drone, and Robo Soccer, both independently and in teams. These experiences helped me develop technical skills and a strong understanding of teamwork and collaboration.</p>
+                  </div>
+                  <!-- Edn Resume Item -->
+                </div>
+              </div>
+            </div>
+          </section><!-- /Resume Section -->
+      
+          <!-- Portfolio Section -->
+          <section id="portfolio" class="portfolio section light-background">
+      
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Projects</h2>
+              <p>This section highlights a selection of my projects, showcasing my skills in engineering, problem-solving, and collaboration.</p>
+            </div><!-- End Section Title -->
+      
+            <div class="container">
+                <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+                  <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="project">
+                    <div class="portfolio-content ">
+                      <img src="img/bmi.webp" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                        <a href="https://krishwq.github.io/BMI-Calculator/" title="More Details" class="details-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                      </div>
+                    </div>
+                    <div class="project-desc mt-2">
+                      <center>
+                      <h5><b>BMI CALCULATOR</b></h5>
+                      <p>Discover your Body Mass Index and receive a comprehensive health report, ready to print and preserve — all with the ease of this timeless web app.</p>
+                   </center>
+                    </div>
+                    </div>
+                  </div><!-- End Portfolio Item -->
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="project">
+                      <div class="portfolio-content ">
+                        <img src="img/note.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <a href="https://note-app-opal-beta.vercel.app/" title="More Details" class="details-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="project-desc mt-2">
+                        <center>
+                        <h5><b>NOTE APP</b></h5>
+                        <p>This web application allows you to register, sign in, and safeguard your notes with the assurance of secure and elegant functionality.</p>
+                     </center>
+                      </div>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+                  <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="project">
+                      <div class="portfolio-content ">
+                        <img src="img//CASE.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <a href="https://krishwq.github.io/Textutiles-react/" title="More Details" class="details-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="project-desc mt-2">
+                        <center>
+                        <h5><b>CASE CONVERTER</b></h5>
+                        <p>In this app, users may convert text to uppercase or lowercase, measure text length, and enjoy many more refined, useful features with ease.</p>
+                     </center>
+                      </div>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item ">
+                    <div class="project">
+                      <div class="portfolio-content ">
+                        <img src="img/NEWS.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <a href="https://krishwq.github.io/NewsMonkey-react/" title="More Details" class="details-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="project-desc mt-2">
+                        <center>
+                        <h5><b>NEWS APP</b></h5>
+                        <p>In this app, you may explore a wide array of daily news categories — all thoughtfully curated and regularly updated for your awareness.</p>
+                     </center>
+                      </div>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item ">
+                    <div class="project">
+                      <div class="portfolio-content ">
+                        <img src="img/chat.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <a href="https://krishwq.github.io/realtime-chat-app/" title="More Details" class="details-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="project-desc mt-2">
+                        <center>
+                        <h5><b>CHAT APP</b></h5>
+                        <p>It is a real-time chat app, offering group conversations, audio file sharing, and more — all in a smooth, elegant experience.</p>
+                     </center>
+                      </div>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item ">
+                    <div class="project">
+                      <div class="portfolio-content ">
+                        <img src="img/SNAKE_GAME.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <a href="https://krishwq.github.io/Snake-game/" title="More Details" class="details-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="project-desc mt-2">
+                        <center>
+                        <h5><b>SNAKE GAME</b></h5>
+                        <p>Here, you may enjoy the timeless Snake game, complete with varying difficulty levels to challenge and entertain at your leisure.</p>
+                     </center>
+                      </div>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="project">
+                      <div class="portfolio-content ">
+                        <img src="img/roboticsimage.webp" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <a href="img/robotics.mp4" title="More Details" class="details-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="project-desc mt-2">
+                        <center>
+                        <h5><b>ROBOTICS PROJECT</b></h5>
+                        <p>I have also crafted robotics projects such as Robo Soccer and a 4-DOF robotic arm — feel free to explore them via the link provided.
+                     </center>
+                      </div>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="project">
+                      <div class="portfolio-content ">
+                        <img src="img/placement.webp" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <a href="https://placement-predictor-4-xjmg.onrender.com" title="More Details" class="details-link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="project-desc my-2">
+                        <center>
+                        <h5><b>PLACEMENT PREDICTOR</b></h5>
+                        <p>This is a placement predictor built using machine learning — simply provide your IQ and CGPA to estimate your placement prospects with precision.</p>
+                     </center>
+                      </div>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+      
+                  <div class="col-lg-4 col-md-6 portfolio-item">
+                    <div class="project">
+                      <div class="portfolio-content ">
+                        <img src="img/cricket.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <a href="cricketgame.exe" download="" title="More Details" class="details-link"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="project-desc mt-2">
+                        <center>
+                        <h5><b>CRICKET GAME</b></h5>
+                        <p>I have created a Cricket game in C++-Download and immerse yourself in a dynamic, engaging gaming experience, all crafted for your enjoyment play.</p>
+                     </center>
+                      </div>
+                      </div>
+                  </div><!-- End Portfolio Item -->
+      
+                </div><!-- End Portfolio Container -->
+            </div>
+      
+          </section><!-- /Portfolio Section -->
+          <!-- Contact Section -->
+          <section id="contact" class="contact section">
+      
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Contact</h2>
+              <p>If you have any inquiries, feel free to contact me. I will get back to you as soon as possible.</p>
+            </div><!-- End Section Title -->
+      
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+      
+              <div class="row gy-4">
+      
+                <div class="col-lg-5">
+      
+                  <div class="info-wrap">
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                      <div>
+                        <h3>Address</h3>
+                        <p>Kolkata, West Bengal, 700124</p>
+                      </div>
+                    </div><!-- End Info Item -->
+      
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fa-solid fa-phone"></i>
+                      <div>
+                        <h3>Call Me</h3>
+                        <p>+91 62906 71032</p>
+                      </div>
+                    </div><!-- End Info Item -->
+      
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fa-solid fa-envelope"></i>
+                      <div>
+                        <h3>Email Me</h3>
+                        <p>birkrishnendu@gmail.com</p>
+                      </div>
+                    </div><!-- End Info Item -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235850.27101492515!2d88.18218765607574!3d22.535660237899116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1744671348123!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+      
+                <div class="col-lg-7">
+                  <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form" id="contact-form">
+                    <div class="row gy-4">
+                        <input type="hidden" name="access_key" value="30439244-c6a5-49ff-8b84-711b48dc67f2">
+                      <div class="col-md-6">
+                        <label for="name-field" class="pb-2">Your Name</label>
+                        <input type="text" name="name" id="name-field" class="form-control" required="">
+                      </div>
+      
+                      <div class="col-md-6">
+                        <label for="email-field" class="pb-2">Your Email</label>
+                        <input type="email" class="form-control" name="email" id="email-field" required="">
+                      </div>
+      
+                      <div class="col-md-12">
+                        <label for="subject-field" class="pb-2">Subject</label>
+                        <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                      </div>
+      
+                      <div class="col-md-12">
+                        <label for="message-field" class="pb-2">Message</label>
+                        <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                      </div>
+      
+                      <div class="col-md-12 text-center">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+      
+                        <button type="submit">Send Message</button>
+                      </div>
+      
+                    </div>
+                  </form>
+                </div><!-- End Contact Form -->
+      
+              </div>
+      
+            </div>
+      
+          </section><!-- /Contact Section -->
+      
+        </main>
+      
+      
+        <!-- Scroll Top -->
+        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-arrow-up"></i></a>
+      
+        <!-- Preloader -->
+        <div id="preloader"></div>
+      
+        <!-- Main JS File -->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+</html>
